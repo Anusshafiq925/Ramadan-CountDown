@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ramadan Countdown</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="image w-100 h-100 position-relative">
+              <img
+                class="img-fluid w-100 h-100"
+                src="./Assets/Ramadan.jpg"
+                alt="Assets"
+              />
+              <div
+                class="position-absolute start-50 top-0 end-0 m-5 h-75 card rounded-5 data border-0 col-5 col-sm-5 col-md-5 shadow"
+              >
+                <div class="card-img-overlay">
+                  <div class="col-12 col-md-12 col-sm-12 text-center">
+                    <h1 class="fw-bold m-3 text-warning-emphasis">
+                      Ramadan 2025
+                    </h1>
+                    <p class="text-dark-emphasis mt-4">
+                      Ramadan is the month whose beginning is mercy, whose
+                      middle is forgiveness, and whose end is freedom from fire.
+                    </p>
+                    <div class="row mt-5">
+                      <div class="col-6 col-md-6 col-sm-6">
+                        <div class="card rounded-5">
+                          <div class="p-3">
+                            <h3 class="m-0 p-0">Months</h3>
+                            <div
+                              id="getMonth"
+                              class="cmonth p-0 m-0 fs-1 fw-bolder"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-6 col-sm-6">
+                        <div class="card rounded-5">
+                          <div class="p-3">
+                            <h3 class="m-0 p-0">Days</h3>
+                            <div
+                              id="getDays"
+                              class="cmonth p-0 m-0 fs-1 fw-bolder"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-6 col-sm-6 mt-3">
+                        <div class="card rounded-5">
+                          <div class="p-3">
+                            <h3 class="m-0 p-0">Hours</h3>
+                            <div
+                              id="getHours"
+                              class="cmonth p-0 m-0 fs-1 fw-bolder"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-6 col-sm-6 mt-3">
+                        <div class="card rounded-5">
+                          <div class="day p-3">
+                            <h3 class="m-0 p-0">Minutes</h3>
+                            <div
+                              id="getMints"
+                              class="cmonth p-0 m-0 fs-1 fw-bolder"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="pooper.js"></script>
+    <script src="bundle.js"></script>
+    <script src="bootstrapscript.js"></script>
+  </body>
+</html>
